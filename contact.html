@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+    <title>Krishna's Personal Website</title>
+	<link href="./css/reset.css" rel="stylesheet"/>
+	<link href="./css/header.css" rel="stylesheet"/>
+	<link href="./css/footers.css" rel="stylesheet"/>
+	<link href="./css/contact_styles.css" rel="stylesheet"/>
+</head>
+<body>
+	<header>
+		<h1>Krishna Bhargavi Pabbaraju</h1>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="projects.html">Projects</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<section>
+		<h2>Contact me </h2>
+		<article>
+			<h2>Address</h2>
+			<p>Computer programming<p>
+			<p> St.Clair college</p>
+		</article>
+		<article>
+			<h2>Reach out to me</h2>
+			<ul>
+				<li>Phone: <a href="tel:+1234567890">+1 (234) 567-890</a></li>
+				<li>Email: <a href="mailto:kp290@myscc.ca">kp290@myscc.ca</a></li>
+			</ul>
+		</article>
+		<article>
+			<h2>Collaborate </h2>
+			<p>Available to collaborate</p>
+		</article>
+	</section>
+	<form action="mailto:kp290@myscc.ca" method="post">
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" required><br><br>
+		
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" required><br><br>
+		
+		<label for="message">Message:</label><br>
+		<textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+		
+		<input type="submit" value="Send">
+		<input type="reset" value="Reset">
+	</form>
+
+	<footer>
+		<p> Krishna Bhargavi Pabbaraju, &copy; 2024 </p>
+	</footer>
+</body>
+</html>

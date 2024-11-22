@@ -1,0 +1,196 @@
+/*************************************************************************************
+**************************************************************************************
+
+Website Name: Krishna's Personal Website
+Website URL: index.html
+Website Author: Krishna Pabbaraju
+Copyright 2024. All rights reserved
+
+Table of contents
+**************************************************************************************
+CSS reset - reset.CSS
+Primary styles - styles 
+1. Main styles
+2. Figure styles
+3. Article styles
+4. Aside styles
+5. Break points and Responsive Design
+
+****************************************************************************************/
+
+/*1.Main styles */
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5em;
+	line-height: 3em;
+}
+
+/*2.Figure styles */
+
+figure {
+    flex: 1 1 25%;
+    text-align: center;
+}
+
+figure img {
+    max-width: 70%;
+    height: auto;
+    border: 0.125em solid white;
+    border-radius: 0.625em;
+}
+
+figure figcaption {
+    font-size: 0.875em;
+    margin-top: 0.5em;
+}
+
+/*3.Article styles */
+
+article {
+    flex: 1 1 70%;
+    margin-left: 2em;
+}
+
+article h2 {
+    font-size: 4em;
+    margin-top: 0.5em;
+	margin-bottom: 0.85em;
+    text-align: center;
+}
+
+article p {
+    margin-top: 1em;
+    font-size: 1.5em;
+	text-align: justify;
+}
+
+/*4.Aside styles */
+aside {
+    flex: 1 1 100%;
+    font-size: 1.25em;
+}
+
+aside p {
+	font-size: 1.25em;
+    margin-top: 0.3125em;
+    padding: 0.3125em;
+	text-align: justify;
+}
+
+
+/* 5. Break points and Responsive Design */
+
+@media screen and (max-width: 1500px) {
+	
+	figure img {
+		max-width: 70%;
+	}
+	
+	nav ul {
+        font-size: 2em;
+    }
+	
+}
+
+@media screen and (max-width: 1210px) {
+    nav ul {
+        flex-direction: column;
+        width: 90%;
+        font-size: 2em;
+    }
+	
+	figure img {
+		max-width: 90%;
+	}
+	
+	article h2 {
+        font-size: 1.5em;
+    }
+
+    figure {
+        margin-top: 1em;
+    }
+	
+	article {
+		margin-left: 0.3em;
+		font-size: 1.5em;
+	}
+	
+	article h2 {
+		font-size: 2em;
+	}
+
+	article p{
+		font-size:1.2em;
+	}
+	
+	figure img {
+		max-width: 90%;
+	}	
+}
+
+
+@media screen and (max-width: 1050px) {
+
+	figure img {
+		max-width: 90%;
+		margin-top: 2.5em;
+	}
+}
+
+
+@media screen and (max-width: 1000px) {
+	figure img {
+		max-width: 90%;
+		margin-top: 3.5em;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	figure img {
+		margin-top: 4.5em;
+	}
+	
+	figcaption{
+		margin-bottom: 4.5em;
+	}
+	main {
+		flex-direction: column;
+	}
+	
+	
+}
+
+@media screen and (max-width: 850px) {
+	figure img {
+		margin-top: 5.5em;
+	}
+}
+
+@media screen and (max-width: 800px) {
+
+    figure {
+        margin-bottom: 2em;
+    }
+	
+	figure img {
+		margin-top: 4.5em;
+	}
+}
+
+
+@media screen and (max-width: 400px) {
+
+    figure {
+        padding-top: 2em;
+    }
+}
+
+@media screen and (max-width: 336px) {
+    body {
+        font-size: 1.2em;
+    }
+}

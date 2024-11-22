@@ -1,0 +1,80 @@
+/*************************************************************************************
+**************************************************************************************
+
+Website Name: Krishna's Personal Website
+Website URL: main.html, about.html, contact.html, projects.html
+Website Author: Krishna Pabbaraju
+Copyright 2024. All rights reserved
+
+Table of contents
+**************************************************************************************
+CSS reset - reset.CSS
+Primary styles - styles 
+1. General Styles
+2. Header Styles
+3. Navigation Styles
+
+****************************************************************************************/
+
+
+/* 1. General Styles */
+body {
+    background-color: #DDD0C8;
+}
+
+/* 2. Header Styles */
+header {
+    background-color: #6E6E6E;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 300;
+    margin-left: 50px;
+    color: white;
+    line-height: 1.6;
+}
+
+/* 3. Navigation Styles */
+nav ul {
+    display: flex;
+    line-height: 1.6;
+    justify-content: right;
+    margin-right: 50px;
+    list-style-type: none;
+    padding: 10px 15px;
+	font-size:2em;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+}
+
+nav ul li a:link {
+    color: #00DD00;
+}
+
+nav ul li a:visited {
+    color: white;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+}
+
+nav ul li a:active {
+    color: #BAFF39;
+}
+
+
+
+
+
+
+
+

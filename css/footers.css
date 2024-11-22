@@ -1,0 +1,26 @@
+/*************************************************************************************
+**************************************************************************************
+
+Website Name: Krishna's Personal Website
+Website URL: main.html, about.html, contact.html, projects.html
+Website Author: Krishna Pabbaraju
+Copyright 2024. All rights reserved
+
+Table of contents
+**************************************************************************************
+CSS reset - reset.CSS
+Primary styles - styles 
+1. Footer Styles
+
+****************************************************************************************/
+/* Footer Styles */
+
+footer{
+	font-size: 1.8em;
+	font-weight: 100;
+	color:white;
+	line-height: 1.6;
+	background-color: #333;
+	text-align: center;
+}
+
